@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/dash
 #
 # Bootstrap script, so we can build and test redo using (mostly) redo.
 # Before redo is available, we have to use minimal/do to build it.  After
