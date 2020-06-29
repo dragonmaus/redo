@@ -46,7 +46,7 @@ once per run) combined with all the cleanliness of recursive `make` (you
 don't have code from one module stomping on code from another module).
 
 (Disclaimer: my current implementation is not as fast as `make` for some
-things, because it's written in python.  Eventually I'll rewrite it an C and
+things, because it's written in python.  Eventually I'll rewrite it in C and
 it'll be very, very fast.)
 
 The easiest way to show it is to jump into an example.  Here's one for
@@ -256,7 +256,7 @@ this version of redo are almost, but not quite, appropriate for testing any
 redo implementation.  If you really must write a new version of redo, we
 invite you to thoroughly test it against the existing test suite to ensure
 compatibility.  You can also steal our tests (with attribution, of course)
-and include them in your own source package.  We'd also love it it you
+and include them in your own source package.  We'd also love it if you
 contribute more automated tests when you find a bug, or send us patches if
 you find a test which is accidentally incompatible (as opposed to finding a
 real bug) with other redo implementations.
